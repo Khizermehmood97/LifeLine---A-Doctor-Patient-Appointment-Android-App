@@ -8,6 +8,6 @@ In this application:
 4) Users can also give feedback to doctors.
 
 Tools used: 
--Native Android Development(Java)
--Google Firebase
--Google Maps API
+1) Native Android Development(Java)
+2) Google Firebase
+3) Google Maps API
