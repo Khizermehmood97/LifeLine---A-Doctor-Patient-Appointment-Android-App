@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">LifelineV2</string>
+
+    <string name="btn1">LOGIN</string>
+    <string name="signup_btn">SIGN UP</string>
+    <string name="edit_btn">SUBMIT</string>
+    <string name="textviewsignup">"Don't have an account ? CLICK HERE"</string>
+    <string name="textviewsignin">"Already have an account ? CLICK HERE"</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category">
+        <item>General</item>
+        <item>OPD</item>
+        <item>ER</item>
+        <item>Ward</item>
+        <item>Dentist</item>
+        <item>Eye</item>
+        <item>Cardio</item>
+        <item>Neuro</item>
+    </string-array>
+
+
+    <string-array name="lastcheckup">
+        <item>Never</item>
+        <item>1 Month Ago</item>
+        <item>2 Month Ago</item>
+        <item>3 Month Ago</item>
+        <item>4 Month Ago</item>
+    <item>5 Month Ago</item>
+        <item>6 Month Ago</item>
+        <item>7 Month Ago</item>
+        <item>8 Month Ago</item>
+        <item>9 Month Ago</item>
+        <item>10 Month Ago</item>
+        <item>11 Month Ago</item>
+        <item>12 Month Ago</item>
+        <item>More than an year</item>
+    </string-array>
+
+
+
+    <string-array name="bloodgroup">
+        <item>o+</item>
+        <item>o-</item>
+        <item>a+</item>
+        <item>a-</item>
+        <item>b+</item>
+        <item>b-</item>
+        <item>ab+</item>
+        <item>ab-</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

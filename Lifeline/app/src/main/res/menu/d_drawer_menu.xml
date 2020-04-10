@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/d_nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/d_nav_MyPatients"
+            android:icon="@drawable/ic_find_donor"
+            android:title="My Patients" />
+
+        <item
+            android:id="@+id/d_nav_myAppointments"
+            android:icon="@drawable/ic_requests"
+            android:title="My Appointments" />
+        <item
+            android:id="@+id/d_nav_hospital"
+            android:icon="@drawable/ic_hospital"
+            android:title="Nearby Pharmacies" />
+        <item
+            android:id="@+id/d_nav_forum"
+            android:icon="@drawable/ic_forum"
+            android:title="Doctor's Feedback" />
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About us" />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

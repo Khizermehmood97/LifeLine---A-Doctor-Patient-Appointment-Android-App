@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lifelinev2.Patient.ProfileInfo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="PROFILE INFO"
+        android:textColor="@color/colorNavHeader"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/greycontainer"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"/>
+
+
+        <TextView
+            android:id="@+id/NameInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="35dp"
+            android:text="Name :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:id="@+id/EmailInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NameInfo"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Email :"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/PhoneInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EmailInfo"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Phone Number :"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/BloodGroupInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PhoneInfo"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Blood Group :"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/LastCheckupInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BloodGroupInfo"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Last Checkup :"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/UserAllergyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LastCheckupInfo"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:text="User Allergy :"
+            android:textColor="#000000"
+            />
+<!--
+        <Button
+            android:id="@+id/BtnInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/UserStatusInfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="GET INFO"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_btn1"/>  -->
+
+
+
+
+
+</RelativeLayout>

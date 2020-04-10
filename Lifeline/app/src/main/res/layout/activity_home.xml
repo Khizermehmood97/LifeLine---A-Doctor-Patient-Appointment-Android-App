@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_image"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/Patientbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginVertical="230dp"
+        android:layout_marginLeft="280dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:text="PATIENt" />
+
+    <Button
+        android:id="@+id/Doctorbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="230dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:text="Doctor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorNavHeader"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:text="LIFELINE V2" />
+</android.widget.RelativeLayout>

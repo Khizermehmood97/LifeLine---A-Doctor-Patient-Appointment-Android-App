@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--  <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+-->
+
+    <color name="colorPrimary">#08253c</color>   <!-- app toolbar and theme-->
+    <color name="colorPrimaryDark">#08253c</color>  <!-- upper bar-->
+    <color name="colorAccent">#FF4081</color>  <!-- edittext underlines-->
+    <!--  <color name="colorNavHeader">#1D2951</color>  -->   <!-- My Color-->
+    <color name="colorNavHeader">#08253c</color>
+    <color name = "pink">#DA1C4E</color>
+    <color name = "grey">#e8e8e7</color>
+</resources>
